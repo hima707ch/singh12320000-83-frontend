@@ -1,4 +1,5 @@
 import React from 'react';
+import images from '../assets/images';
 
 const FeaturedPortfolio = ({ properties, loading, error }) => {
   if (loading) return <div id="Featured_1" className="text-center py-12">Loading...</div>;
